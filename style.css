@@ -7,3 +7,50 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
+#wrapper {
+	width:940px;
+	margin:0px auto;
+}
+
+header {
+	padding:20px;
+	border:1px solid #bbb;
+	background-image:-webkit-gradient(linear,0% 0%, 0% 100%,from(#fff),to(#AD1010));
+}
+
+nav {
+	background: #222;
+}
+
+nav ul {
+	list-style:none;
+	overflow:auto;
+	margin:0px;
+	padding:0px;
+}
+
+nav ul li {
+	float:left;
+}
+
+nav ul a {
+	display:block;
+	color:#fff;
+	font-size:20px;
+	padding:4px 20px;
+}
+
+nav ul li a:hover {
+	background:white;
+	color:black;
+}
+
+.alignright {
+	float:right;
+	margin:0px 0px 8px 8px;
+}
+
+.alignleft {
+	float:left;
+	margin:0px 8px 8px 0px;
+}
