@@ -20,6 +20,7 @@ header {
 
 nav {
 	background: #222;
+	margin:0px 0px 10px 0px;
 }
 
 nav ul {
@@ -44,6 +45,27 @@ nav ul li a:hover {
 	background:white;
 	color:black;
 }
+
+.search-results ul li {
+	line-height:30px;
+}
+
+.search-results ul li a {
+	font-size:30px;
+	color:#222;
+	line-height:30px;
+}
+
+.meta {
+	color:#222;
+	margin:6px 0px;
+}
+
+.meta span {
+	margin-right:26px;
+}
+
+/* CMS STYLES */
 
 .alignright {
 	float:right;
