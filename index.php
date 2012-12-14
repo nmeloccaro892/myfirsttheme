@@ -6,7 +6,7 @@
 	<body>
 		<div id="wrapper">
 			<header>
-				<h1><?php bloginfo('name') ?></h1>
+				<h1><?php bloginfo('name') ?> <img src="<?php echo get_template_directory_uri()?>/img/apple_logo.png" alt="apple_logo"></img></h1>
 			</header>
 			<nav id="primary-nav">
 				<?php get_template_part('nav') // includes nav.php ?>

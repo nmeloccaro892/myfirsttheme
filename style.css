@@ -18,6 +18,19 @@ header {
 	background-image:-webkit-gradient(linear,0% 0%, 0% 100%,from(#fff),to(#AD1010));
 }
 
+header h1 img {
+	-webkit-transition:-webkit-transform 1s;
+	translation:transform 1s;
+	display:inline-block;
+	line-height:120px;
+}
+
+header h1 img:hover {
+	transform:rotate(360deg);
+	-webkit-transform:rotate(360deg);
+	text-decoration:none;
+}
+
 nav {
 	background: #222;
 	margin:0px 0px 10px 0px;
@@ -44,6 +57,7 @@ nav ul a {
 nav ul li a:hover {
 	background:white;
 	color:black;
+	text-decoration:none;
 }
 
 .search-results ul li {
