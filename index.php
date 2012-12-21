@@ -6,13 +6,13 @@
 	<body>
 		<div id="wrapper">
 			<header>
-				<h1><?php bloginfo('name') ?> <img src="<?php echo get_template_directory_uri()?>/img/apple_logo.png" alt="apple_logo"></img></h1>
+				<h1><?php bloginfo('name') ?> <a href="https://www.apple.com"><img src="<?php echo get_template_directory_uri()?>/img/apple_logo.png" alt="apple_logo"></img></a></h1>
 			</header>
 			<nav id="primary-nav">
 				<?php get_template_part('nav') // includes nav.php ?>
 			</nav>
 			<div  id="main">
-				<div class="row">
+				<div class="row-fluid">
 					<!-- Main Column -->
 					<div class="span9">
 						<?php 

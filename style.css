@@ -14,7 +14,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 header {
 	padding:20px;
-	border:1px solid #bbb;
+	border:1px solid black;
 	background-image:-webkit-gradient(linear,0% 0%, 0% 100%,from(#fff),to(#AD1010));
 }
 
@@ -34,6 +34,12 @@ header h1 img:hover {
 nav {
 	background: #222;
 	margin:0px 0px 10px 0px;
+	z-index:1000;
+}
+
+nav.affix {
+	top:0px;
+	width:940px;
 }
 
 nav ul {
@@ -79,6 +85,23 @@ nav ul li a:hover {
 	margin-right:26px;
 }
 
+#main .row div {
+	transition:background-color 0.5s;
+	-webkit-transition:backgroind-color 0.5s;
+}
+
+.deleting {
+	background-color:#DE3535;
+}
+
+.highlight {
+	background-color:#FFF70F;
+}
+
+.btn {
+	padding:7px 14px;
+}
+
 /* CMS STYLES */
 
 .alignright {
@@ -89,4 +112,54 @@ nav ul li a:hover {
 .alignleft {
 	float:left;
 	margin:0px 8px 8px 0px;
+}
+
+footer p {
+	text-align:center;
+	color:#7D0000;
+}
+
+.num-comments {
+	color:#0C4D45;
+	background-color:#F7F1C6;
+}
+
+ol.commentlist {
+	background-color:#F7F1C6;
+	margin:5px;
+}
+
+.comment-body {
+	border:1px dashed #008575;
+}
+
+.comment-meta {
+	float:right;
+	padding:30px 5px 0px 0px;
+}
+
+/* PHONE STYLES */
+@media (max-width: 480px) {
+	body {
+		background-image:none;
+		padding:0px;
+	}
+	#wrapper {
+		width:100%;
+	}
+	.post .img {
+		float:none;
+		width:100%;
+	}
+	header {
+		padding:10px;
+		text-align:center;
+	}
+	header h1 {
+		font-size:30px;
+		line-height:30px;
+	}
+	header h1 a {
+		line-height:30px;
+	}
 }

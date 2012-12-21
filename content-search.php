@@ -6,6 +6,6 @@
 	<?php endwhile ?>
 </ul>
 <?php else: ?>
-	<p class="alert">Sorry, there are no pages matching your search</p>
+	<p class="alert">Sorry, there are no pages matching your search.</p>
 <?php endif ?>
 </div>
